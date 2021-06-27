@@ -1,10 +1,10 @@
 FROM debian:stretch
 
-ARG jenkins_version=2.222.4
-ARG jenkins_sha=6c95721b90272949ed8802cab8a84d7429306f72b180c5babc33f5b073e1c47c
+ARG jenkins_version=2.289.1
+ARG jenkins_sha=70f9cc6ff1ac59aeeb831b980709a9ddb0ee70d216ee50625a8508b9840f75f2
 
-ARG tini_version=0.18.0
-ARG tini_sha=eadb9d6e2dc960655481d78a92d2c8bc021861045987ccd3e27c7eae5af0cf33
+ARG tini_version=0.19.0
+ARG tini_sha=c5b0666b4cb676901f90dfcb37106783c5fe2077b04590973b885950611b30ee
 
 ARG jenkins_url=https://repo.jenkins-ci.org/releases/org/jenkins-ci/main/jenkins-war/${jenkins_version}
 
